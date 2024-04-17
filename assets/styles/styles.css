@@ -6,6 +6,12 @@ h1 span{
     text-align: center;
 }
 
+.navigation {
+    border-top: 1px solid #e1e1e1;
+    padding-block-start: 14px;
+    margin: auto
+}
+
 .navigation a {
     color: #000;
     text-decoration: none;
