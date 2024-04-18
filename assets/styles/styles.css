@@ -42,6 +42,7 @@ img {
     max-width: 100%;
 }
 
+/* Categories */
 .category-list {
     display: grid;
     width: 90%;
@@ -54,4 +55,10 @@ img {
     text-align: center;
     display: block;
     font-size: 20px;
+    padding-block: 10px;
+}
+
+.category a:hover {
+    background-color: var(--blue);
+    border-radius: 5px;
 }
