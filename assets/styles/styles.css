@@ -1,5 +1,11 @@
+:root {
+    --blue: #037bc0;
+    --white: #e1e1e1;
+    --black: #000;
+}
+
 h1 span{
-    color: #037bc0;
+    color: var(--blue);
 }
 
 .main-title {
@@ -7,7 +13,7 @@ h1 span{
 }
 
 .navigation {
-    border-top: 1px solid #e1e1e1;
+    border-top: 1px solid var(--white);
     padding-block: 14px;
     display: flex;
     align-items: center;
@@ -15,7 +21,7 @@ h1 span{
 }
 
 a {
-    color: #000;
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -42,4 +48,10 @@ img {
     margin: 10px auto;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.category a{
+    text-align: center;
+    display: block;
+    font-size: 20px;
 }
