@@ -14,7 +14,7 @@ h1 span{
     justify-content: space-around;
 }
 
-.navigation a {
+a {
     color: #000;
     text-decoration: none;
 }
@@ -27,3 +27,14 @@ h1 span{
 }
 
 /* Main section */
+
+h2 {
+    text-align: center;
+}
+
+.category-list {
+    display: grid;
+    width: 90%;
+    margin: 10px auto;
+    grid-template-columns: repeat(3, 1fr);
+}
