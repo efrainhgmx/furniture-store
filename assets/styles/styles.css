@@ -8,6 +8,10 @@ h1 span{
     color: var(--blue);
 }
 
+body {
+    font-family: "Raleway", sans-serif;
+}
+
 .main-title {
     text-align: center;
 }
