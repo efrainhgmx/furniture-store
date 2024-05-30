@@ -4,12 +4,21 @@
     --black: #000;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
 h1 span{
     color: var(--blue);
 }
 
 body {
     font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
 }
 
 .main-title {
@@ -58,7 +67,7 @@ img {
 .category a{
     text-align: center;
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     padding-block: 10px;
 }
 
