@@ -9,6 +9,14 @@ html {
 }
 
 h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
     font-size: 3rem;
 }
 
@@ -19,6 +27,7 @@ h1 span{
 body {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
+    line-height: 2;
 }
 
 .main-title {
@@ -43,6 +52,7 @@ a {
     height: 550px;
     background-image: url("../img/principal.webp");
     background-size: cover;
+    background-position: center;
 }
 
 /* Main section */
