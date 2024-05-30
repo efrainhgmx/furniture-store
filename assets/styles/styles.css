@@ -56,13 +56,29 @@ a {
 }
 
 /* Main section */
-
-h2 {
-    text-align: center;
-}
-
 img {
     max-width: 100%;
+}
+
+/*About us*/
+
+.about-us {
+    width: 100%;
+    background-image: linear-gradient(to right, transparent 50%, var(--blue) 50%, var(--blue) 100%), 
+    url(../img/nosotros.webp);
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    background-position: left center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+}
+
+.about-us--content {
+    grid-column: 2;
+    color: var(--white);
+    text-align: left;
 }
 
 /* Categories */
