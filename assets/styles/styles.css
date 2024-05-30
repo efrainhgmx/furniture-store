@@ -101,5 +101,16 @@ img {
 /* Products section */ 
 
 .products-section {
+    width: 90%;
+}
 
+.product {
+    text-align: center;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.price {
+    font-weight: 900;
+    font-size: 2.5rem;
 }
