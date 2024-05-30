@@ -1,8 +1,4 @@
-:root {
-    --blue: #037bc0;
-    --white: #e1e1e1;
-    --black: #000;
-}
+@import url(./utilities.css);
 
 html {
     font-size: 62.5%;
@@ -100,4 +96,10 @@ img {
 .category a:hover {
     background-color: var(--blue);
     border-radius: 5px;
+}
+
+/* Products section */ 
+
+.products-section {
+
 }

@@ -1,0 +1,9 @@
+:root {
+    --blue: #037bc0;
+    --white: #e1e1e1;
+    --black: #000;
+}
+
+.text-center {
+    text-align: center;
+}
