@@ -108,9 +108,25 @@ img {
     text-align: center;
     color: var(--white);
     background-color: var(--blue);
+    padding-bottom: 1rem;
 }
 
 .price {
     font-weight: 900;
     font-size: 2.5rem;
+}
+
+.text-product a{
+  background-color: var(--green);
+  display: block;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 1rem;
+  max-width: 90%;
+  margin: 1.5rem auto;
+}
+
+.text-product a:hover {
+    cursor: pointer;
+    background-color: var(--green-strong);
 }
