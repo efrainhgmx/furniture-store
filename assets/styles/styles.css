@@ -108,17 +108,26 @@ img {
 .list-products {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
 }
 
 .product {
     text-align: center;
     color: var(--white);
     background-color: var(--blue);
-    padding-bottom: 1rem;
 }
 
 .product:nth-child(1) {
    grid-column: 1 / 7;
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   gap: 2rem;
+}
+
+.product:nth-child(1) img {
+    height: 48rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .product:nth-child(2) {
